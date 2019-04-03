@@ -8,9 +8,9 @@ No knowledge in either Windows or Linux operating systems is required, but you s
 At all times help is available and won't be held against you should you make use of it. Email for help is in your private
 details bundle.
 
-1.	Make sure you can sFTP into your virtual machine using FileZilla or any other FTP program you choose to use.
-	Make sure that when you navigate to {YOUR VM IP}/ping you get a PONG response.
-	If something is not working please consult us immediately.
+1.	Make sure you can sFTP into your virtual machine using FileZilla or any other FTP program you choose to use.  
+	Make sure that when you navigate to {YOUR VM IP}/ping you get a PONG response.  
+	If something is not working please consult us immediately.  
 	(If you're using FileZilla set the host to your VM IP and set the port to 22)
 	
 2. 	Make sure to read: https://github.com/giladbbn2/phpws#how-to-use-phpws-as-a-platform-for-other-projects
