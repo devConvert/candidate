@@ -26,7 +26,7 @@ details bundle.
 	
 	The method should insert a new user to the mysql db. The "inserted" field should be set to current time.  
 	If the user already exists (user_id already exists) this method should return an error describing it.  
-	Make sure to clean the parameters to prevent sql injections.
+	Make sure to clean the parameters to prevent sql injections and xss.
 	
 4.	Add another public method to MainControllerV1 called "edit_user" that receives the following parameters:
 
@@ -34,7 +34,7 @@ details bundle.
 	
 	The method should edit a user that already exists (only if user_id exists).  
 	The fields "inserted" and "user_id" cannot be changed for a user.  
-	Make sure to clean the parameters to prevent sql injections.
+	Make sure to clean the parameters to prevent sql injections and xss.
 	
 5.	Add another public method to MainControllerV1 called "users" that shows a nice html table listing all users. You are encouraged to use jQuery and Bootstrap. A simple design will suffice.
 
