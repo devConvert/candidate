@@ -44,9 +44,9 @@ details bundle.
 
 6. 	Design a Login mechanism in which an admin can connect to the system and access the following controller methods:
 	
-	get_users
-	insert_user
-	edit_user
+	get_users  
+	insert_user  
+	edit_user  
 	users
 	
 	For that you'll probably need to create another public method that tests if an admin is currently connected
