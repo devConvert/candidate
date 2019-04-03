@@ -3,7 +3,7 @@
 Good day candidate!
 
 The following exercises were created to test basic knowledge in PHP/MYSQL/HTML/CSS/JS.
-No knowledge in either Windows or Linux operating systems is required, but you should use sFTP to upload your files.
+Knowledge in either Windows or Linux operating systems is not required, but you should use sFTP to upload your files.
 
 At all times help is available and won't be held against you should you make use of it. Email for help is in your private
 details bundle.
