@@ -13,31 +13,30 @@ details bundle.
 	If something is not working please consult us immediately.  
 	(If you're using FileZilla set the host to your VM IP and set the port to 22)
 	
-2. 	Make sure to read: https://github.com/giladbbn2/phpws#how-to-use-phpws-as-a-platform-for-other-projects
-	The most important part is titled "How to use phpws as a platform for other projects".
-	You already have a file at /var/www/html/includes/MainControllerV1.php in your vm.
+2. 	Make sure to read: https://github.com/giladbbn2/phpws#how-to-use-phpws-as-a-platform-for-other-projects  
+	The most important part is titled "How to use phpws as a platform for other projects".  
+	You already have a file at /var/www/html/includes/MainControllerV1.php in your vm.  
 	Make sure that when you navigate to {YOUR VM IP}/ws/1/main/get_users you can see a list of users - currently only
-	one is listed with user_id = "a123"
+	one is listed with user_id = "a123".  
 	If something is not working please consult us immediately.
 	
 3.	Add another public method to MainControllerV1 called "insert_user" that receives the following parameters:
 
 	user_id, firstname, lastname, phone
 	
-	The method should insert a new user to the mysql db. The "inserted" field should be set to current time.
-	If the user already exists (user_id already exists) this method should return an error describing it.
+	The method should insert a new user to the mysql db. The "inserted" field should be set to current time.  
+	If the user already exists (user_id already exists) this method should return an error describing it.  
 	Make sure to clean the parameters to prevent sql injections.
 	
 4.	Add another public method to MainControllerV1 called "edit_user" that receives the following parameters:
 
 	user_id, firstname, lastname, phone
 	
-	The method should edit a user that already exists (only if user_id exists).
-	The fields "inserted" and "user_id" cannot be changed for a user.
+	The method should edit a user that already exists (only if user_id exists).  
+	The fields "inserted" and "user_id" cannot be changed for a user.  
 	Make sure to clean the parameters to prevent sql injections.
 	
-5.	Add another public method to MainControllerV1 called "users" that shows a nice html table listing all users.
-	You are encouraged to use jQuery and Bootstrap. A simple design will suffice.
+5.	Add another public method to MainControllerV1 called "users" that shows a nice html table listing all users. You are encouraged to use jQuery and Bootstrap. A simple design will suffice.
 
 	Add two html buttons: "Edit User" and "Create User" and find a way to connect these buttons with the
 	"insert_user" and "edit_user" controller methods you created in earlier exercises.
@@ -51,10 +50,10 @@ details bundle.
 	users
 	
 	For that you'll probably need to create another public method that tests if an admin is currently connected
-	to the system (check http cookies) and if not then show a login page.
+	to the system (check http cookies) and if not then show a login page.  
 	The admin is not a user listed in the candidate.users mysql table. It's credentials for login should be:
 	
-	username: admin
+	username: admin  
 	password: 123456
 	
 	The login mechanism should make use of cookies and the mysql table candidate.open_sessions which was already
