@@ -60,5 +60,5 @@ details bundle.
 	created as a mysql table for you. This table contains ONLY open sessions. Once the admin logs into the system
 	a row should be inserted into this table with its IP. Once the admin logs out the row should be deleted.
 	
-	Only a logged in admin may access the four method listed above.
+	Only a logged in admin may access the four methods listed above.
 	
