@@ -5,8 +5,9 @@ Good day candidate!
 The following exercises were created to test basic knowledge in PHP/MYSQL/HTML/CSS/JS.
 Knowledge in either Windows or Linux operating systems is not required, but you should use sFTP to upload your files.
 
-At all times help is available and won't be held against you should you make use of it. Email for help is in your private
-details bundle.
+By now you should have gotten your Virtual Machine IP, sFTP username and sFTP password for this test.
+
+At all times help is available and won't be held against you should you make use of it. Just pass the question to your interviewers.
 
 1.	Make sure you can sFTP into your virtual machine using FileZilla or any other FTP program you choose to use.  
 	Make sure that when you navigate to {YOUR VM IP}/ping you get a PONG response.  
@@ -22,7 +23,10 @@ details bundle.
 	
 3.	Add another public method to MainControllerV1 called "insert_user" that receives the following parameters:
 
-	user_id, firstname, lastname, phone
+	user_id  
+	firstname  
+	lastname  
+	phone
 	
 	The method should insert a new user to the mysql db. The "inserted" field should be set to current time.  
 	If the user already exists (user_id already exists) this method should return an error describing it.  
@@ -30,7 +34,10 @@ details bundle.
 	
 4.	Add another public method to MainControllerV1 called "edit_user" that receives the following parameters:
 
-	user_id, firstname, lastname, phone
+	user_id  
+	firstname  
+	lastname  
+	phone
 	
 	The method should edit a user that already exists (only if user_id exists).  
 	The fields "inserted" and "user_id" cannot be changed for a user.  
