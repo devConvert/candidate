@@ -11,7 +11,7 @@ At all times help is available and won't be held against you should you make use
 
 1.	Make sure you can sFTP into your virtual machine using FileZilla or any other FTP program you choose to use.  
 	Make sure that when you navigate to {YOUR VM IP}/ping you get a PONG response.  
-	If something is not working please consult us immediately.  
+	If something is not working please consult your interviewers immediately.  
 	(If you're using FileZilla set the host to your VM IP and set the port to 22)
 	
 2. 	Make sure to read: https://github.com/giladbbn2/phpws#how-to-use-phpws-as-a-platform-for-other-projects  
@@ -19,7 +19,7 @@ At all times help is available and won't be held against you should you make use
 	You already have a file at /var/www/html/includes/MainControllerV1.php in your vm.  
 	Make sure that when you navigate to {YOUR VM IP}/ws/1/main/get_users you can see a list of users - currently only
 	one is listed with user_id = "a123".  
-	If something is not working please consult us immediately.
+	If something is not working please consult your interviewers immediately.
 	
 3.	Add another public method to MainControllerV1 called "insert_user" that receives the following parameters:
 
