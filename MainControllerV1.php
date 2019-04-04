@@ -12,7 +12,6 @@ class MainControllerV1 extends BaseControllerV1{
 
     public function get_users(){
 
-
         $db = $this->db_connect("candidate");
 
         $sql = "select * from candidate.users";
@@ -23,7 +22,6 @@ class MainControllerV1 extends BaseControllerV1{
         print_r($results);
         die();
 
-
-	  }
+    }
   
 }
